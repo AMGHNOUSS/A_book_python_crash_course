@@ -1,0 +1,22 @@
+names = ['Muhamed', 'Hachim', 'Mansour', 'Ali']
+names.insert(0, 'Hamza')
+names.insert(3, 'Othmane')
+names.append('Adnane')
+print("I can invite only two people for dinner.")
+guest_ignore = names.pop()
+print(f"Sorry {guest_ignore} I can’t invite you to dinner.")
+guest_ignore = names.pop()
+print(f"Sorry {guest_ignore} I can’t invite you to dinner.")
+guest_ignore = names.pop()
+print(f"Sorry {guest_ignore} I can’t invite you to dinner.")
+guest_ignore = names.pop()
+print(f"Sorry {guest_ignore} I can’t invite you to dinner.")
+guest_ignore = names.pop()
+print(f"Sorry {guest_ignore} I can’t invite you to dinner.")
+print("========================")
+print(f"{names[0].title()}, you are invite to dinner")
+print(f"{names[1].title()}, you are invite to dinner")
+print("========================")
+del names[1]
+del names[0]
+print("Now, we have an empty list!")
