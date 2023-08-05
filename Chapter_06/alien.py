@@ -25,6 +25,11 @@ else:
     #The new position is the old position plus the increment.
 alien_0['x_position'] = alien_0['x_position'] + x_increment
 print(alien_0)
+
 # Removing key 'pointers'
 del alien_0['points']
 print(alien_0)
+
+# using get() method to find value of key
+point_value = alien_0.get('points', 'No point value assigned.')
+print(point_value)
